@@ -25,4 +25,5 @@ Tools I use every day (or at least a lot). Nothing shocking, but maybe there's s
  - iterm
  - magnet
  - background music
+ - brew
  
