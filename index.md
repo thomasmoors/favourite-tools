@@ -17,6 +17,13 @@ Tools I use every day (or at least a lot). Nothing shocking, but maybe there's s
 
 ## Windows
  - scoop
+   - Tip: add this small script as `scoop_update.bat` to `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup` to automatically update apps installed with scoop
+ ```batch
+scoop update *
+scoop cache rm *
+scoop cleanup *
+exit
+ ```
  - cmder
  - laragon
  - windirstat
