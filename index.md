@@ -20,14 +20,16 @@ Tools I use every day (or at least a lot). Nothing shocking, but maybe there's s
  - [scoop](https://scoop.sh/)
    - install with `iwr -useb get.scoop.sh | iex` in PowerShell
    - tip: add this small script as `scoop_update.bat` to `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup` to automatically update apps installed with scoop
- ```batch
-scoop update *
-scoop cache rm *
-scoop cleanup *
-exit
- ```
+   
+   ```batch
+   scoop update *
+   scoop cache rm *
+   scoop cleanup *
+   exit
+   ```
  - [cmder](https://github.com/cmderdev/cmder/releases/download/latest/cmder.zip)
    - If you install [AutoHotkey(https://www.autohotkey.com/download/ahk-install.exe) and add the following script as `home_dir.ahk`, you can use `~` for your home directory
+  
    ```ahk
    #IfWinActive ahk_class VirtualConsoleClass
    ::~::C:\Users\[username]
