@@ -23,4 +23,6 @@ Tools I use every day (or at least a lot). Nothing shocking, but maybe there's s
 
 ## Mac
  - iterm
+ - magnet
+ - background music
  
