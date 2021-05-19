@@ -8,6 +8,7 @@ Tools I use every day (or at least a lot). Nothing shocking, but maybe there's s
  - dbeaver
  - git
  - ngrok
+   - run as `ngrok http -region=eu 80` to make it use a European server
  - postman
  - spotify
  - vscode
