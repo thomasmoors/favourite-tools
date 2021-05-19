@@ -13,13 +13,13 @@ Tools I use every day (or at least a lot). Nothing shocking, but maybe there's s
  - vscode
  - docker
  - 7zip
+ - neor profile SQL
 
 ## Windows
  - scoop
  - cmder
  - laragon
  - windirstat
- - neor profile SQL
 
 ## Mac
  - iterm
