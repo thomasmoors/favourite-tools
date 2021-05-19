@@ -27,6 +27,12 @@ scoop cleanup *
 exit
  ```
  - [cmder](https://github.com/cmderdev/cmder/releases/download/latest/cmder.zip)
+   - If you install [AutoHotkey(https://www.autohotkey.com/download/ahk-install.exe) and add the following script as `home_dir.ahk`, you can use `~` for your home directory
+   ```ahk
+   #IfWinActive ahk_class VirtualConsoleClass
+   ::~::C:\Users\[username]
+   #IfWinActive
+   ```
  - [laragon](https://github.com/leokhoa/laragon/releases/download/4.0.15/laragon-full.exe)
  - [windirstat](https://www.fosshub.com/WinDirStat.html?dwl=windirstat1_1_2_setup.exe)
 
